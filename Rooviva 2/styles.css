@@ -1,0 +1,48 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the navigation bar container */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8ee91;
+    padding: 30px 20px;
+}
+
+/* Left and right alignment for nav links */
+.nav-left a,
+.nav-right a {
+    color: rgba(8, 126, 28, 0.726);
+    text-decoration: none;
+    margin: 40px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* Extra styling for the "Sign Up" button */
+.signup-btn {
+    padding: 9px 30px;
+    border-radius: 7px;
+    font-weight: normal;
+    background: linear-gradient(to right, #ccffff 32%, #ffcc66 100%);
+    transition: background-color 0.3s;
+}
+
+
+/* Hover effects for all links */
+.nav-left a:hover,
+.nav-right a:hover {
+    color: #4e57aa;
+}
+/* Transform your business */
+.container{
+    padding: 50px;
+    background-color:#f8f8ee91; 
+}
+
+
